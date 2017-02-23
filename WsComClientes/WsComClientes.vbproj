@@ -1,0 +1,279 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6590E93B-0290-4211-973A-D6280AB1C003}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>WsComClientes</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyMode>None</AssemblyOriginatorKeyMode>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionStrict>Off</OptionStrict>
+    <RootNamespace>WsComClientes</RootNamespace>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <MyType>Windows</MyType>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <TargetFrameworkProfile />
+    <UseIISExpress>false</UseIISExpress>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>
+    </DocumentationFile>
+    <BaseAddress>285212672</BaseAddress>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>
+    </DefineConstants>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugSymbols>true</DebugSymbols>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>42016,42017,42018,42019,42032,42353,42354,42355</NoWarn>
+    <DebugType>full</DebugType>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>
+    </DocumentationFile>
+    <BaseAddress>285212672</BaseAddress>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>
+    </DefineConstants>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugSymbols>false</DebugSymbols>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>42016,42017,42018,42019,42032,42353,42354,42355</NoWarn>
+    <DebugType>none</DebugType>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="FrameWorkNet2, Version=1.0.0.89, Culture=neutral, PublicKeyToken=c390b39e2a4f2a79, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\LIBRERIAS\FrameWorkNet2.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Common">
+      <HintPath>Referencias\Microsoft.Practices.EnterpriseLibrary.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Data">
+      <HintPath>Referencias\Microsoft.Practices.EnterpriseLibrary.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.ObjectBuilder">
+      <HintPath>Referencias\Microsoft.Practices.ObjectBuilder.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web">
+      <Name>System.Web</Name>
+    </Reference>
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Services">
+      <Name>System.Web.Services</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="ManejoMensajes" />
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Web" />
+    <Import Include="System.Web.Services" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Afiliaciones.asmx.vb">
+      <DependentUpon>Afiliaciones.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="AssemblyInfo.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="frmTest.aspx.designer.vb">
+      <DependentUpon>frmTest.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmTest.aspx.vb">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>frmTest.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.vb">
+      <DependentUpon>Global.asax</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="ServicioCargueMasivo.asmx.vb">
+      <DependentUpon>ServicioCargueMasivo.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Content Include="Afiliaciones.asmx" />
+    <Content Include="bin\Configuracion.xml" />
+    <Content Include="bin\Mensajes.xml" />
+    <Content Include="frmTest.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="Imagenes\bck_tran03.gif" />
+    <Content Include="Imagenes\bck_tran06.gif" />
+    <Content Include="Imagenes\btnX.jpg" />
+    <Content Include="Imagenes\btnY.jpg" />
+    <Content Include="Imagenes\bullet01.gif" />
+    <Content Include="Imagenes\cor_botlf.gif" />
+    <Content Include="Imagenes\cor_botrg.gif" />
+    <Content Include="Imagenes\spacer.gif" />
+    <Content Include="Imagenes\tit_base.gif" />
+    <Content Include="Imagenes\tran_box0101.gif" />
+    <Content Include="Imagenes\tran_box0103.gif" />
+    <Content Include="Imagenes\tran_box0201Tx.gif" />
+    <Content Include="Imagenes\tran_box0203.gif" />
+    <Content Include="Referencias\FrameWorkNet2.dll" />
+    <Content Include="ServicioCargueMasivo.asmx" />
+    <Content Include="ValidacionCampos.xml" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <EmbeddedResource Include="Global.asax.resx">
+      <DependentUpon>Global.asax.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ComponenteVinculacion\Consorcio.root\Consorcio\Compensar.SISPOS.DAL\Compensar.SISPOS.DAL.vbproj">
+      <Project>{C936EBA8-B12C-44D2-875B-B153A739CE75}</Project>
+      <Name>Compensar.SISPOS.DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ComponenteVinculacion\Consorcio.root\Consorcio\Compensar.SISPOS.ESL\Compensar.SISPOS.ESL.vbproj">
+      <Project>{BE0D854F-6510-46A0-9C8E-A18A2865EC76}</Project>
+      <Name>Compensar.SISPOS.ESL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ComponenteVinculacion\Consorcio.root\Consorcio\Compensar.SISPOS.vinculacion\Compensar.Vincula.POS.vbproj">
+      <Project>{3F4617C3-34FD-4548-80C9-59F46C3C3BB5}</Project>
+      <Name>Compensar.Vincula.POS</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\EntidadesNegocio\EntidadesNegocio.vbproj">
+      <Project>{10D774D9-85AD-4DA2-84AF-4EA46D7087B3}</Project>
+      <Name>EntidadesNegocio</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LogicaTransaccional\LogicaTransaccional.vbproj">
+      <Project>{433F86B1-89A4-489B-A3DB-7A23F033DF0C}</Project>
+      <Name>LogicaTransaccional</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ManejoMensajes\ManejoMensajes.vbproj">
+      <Project>{4884849E-D6EC-4B19-9C3A-8120DD0FD09C}</Project>
+      <Name>ManejoMensajes</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Proceso\Proceso.vbproj">
+      <Project>{A183B886-F7C8-4B46-AAB5-FA305C515BAB}</Project>
+      <Name>Proceso</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Servicios\Servicios.vbproj">
+      <Project>{1963FB9F-438E-4D55-9079-7984B9AA015A}</Project>
+      <Name>Servicios</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Utilidades\Utilidades.vbproj">
+      <Project>{255FDA63-3853-46F1-9FB3-C875824B5054}</Project>
+      <Name>Utilidades</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Settings.settings">
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="XSD\TramaActualizarDatosBasicos.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="XSD\TramaActualizarDatosBasicos.xsx">
+      <DependentUpon>TramaActualizarDatosBasicos.xsd</DependentUpon>
+    </None>
+    <None Include="XSD\TramaActualizarEstadoRequisito.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="XSD\TramaActualizarEstadoRequisito.xsx">
+      <DependentUpon>TramaActualizarEstadoRequisito.xsd</DependentUpon>
+    </None>
+    <None Include="XSD\TramaActualizarUbicacionCliente.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="XSD\TramaActualizarUbicacionCliente.xsx">
+      <DependentUpon>TramaActualizarUbicacionCliente.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>False</AutoAssignPort>
+          <DevelopmentServerPort>48645</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost/WsComClientes</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

@@ -1,0 +1,16 @@
+<configuration>
+
+    <NombreAplicacion>WSPR04</NombreAplicacion> 
+	<NombreLog>LOGWSCOMCLIENTES</NombreLog>
+	<ParametroCaja >1</ParametroCaja>
+
+	<URLWSAF>http://vmprcauca/WCOMPENSAR/Af/af.asmx</URLWSAF>
+	<URLWSAFSYS>http://vmprcauca/WCOMPENSAR/afsys/afsys.asmx</URLWSAFSYS>
+	<URLWSORBITA>http://vmprcauca/WsComCaja/orbita/orbita_ws.asmx</URLWSORBITA>
+
+	
+	
+	<PSEEntityCode>8600669426</PSEEntityCode>	
+   
+
+</configuration>

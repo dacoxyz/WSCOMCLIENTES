@@ -1,0 +1,135 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Proceso", "Proceso\Proceso.vbproj", "{A183B886-F7C8-4B46-AAB5-FA305C515BAB}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "LogicaTransaccional", "LogicaTransaccional\LogicaTransaccional.vbproj", "{433F86B1-89A4-489B-A3DB-7A23F033DF0C}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "EntidadesNegocio", "EntidadesNegocio\EntidadesNegocio.vbproj", "{10D774D9-85AD-4DA2-84AF-4EA46D7087B3}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ObjTransferDatos", "ObjTransferDatos\ObjTransferDatos.vbproj", "{6211BD24-784B-468E-AE2A-62792737CD61}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ManejoMensajes", "ManejoMensajes\ManejoMensajes.vbproj", "{4884849E-D6EC-4B19-9C3A-8120DD0FD09C}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Utilidades", "Utilidades\Utilidades.vbproj", "{255FDA63-3853-46F1-9FB3-C875824B5054}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "WsComClientes", "WsComClientes\WsComClientes.vbproj", "{6590E93B-0290-4211-973A-D6280AB1C003}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Servicios", "Servicios\Servicios.vbproj", "{1963FB9F-438E-4D55-9079-7984B9AA015A}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Compensar.SISPOS.DAL", "ComponenteVinculacion\Consorcio.root\Consorcio\Compensar.SISPOS.DAL\Compensar.SISPOS.DAL.vbproj", "{C936EBA8-B12C-44D2-875B-B153A739CE75}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Compensar.SISPOS.ESL", "ComponenteVinculacion\Consorcio.root\Consorcio\Compensar.SISPOS.ESL\Compensar.SISPOS.ESL.vbproj", "{BE0D854F-6510-46A0-9C8E-A18A2865EC76}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Compensar.Vincula.POS", "ComponenteVinculacion\Consorcio.root\Consorcio\Compensar.SISPOS.vinculacion\Compensar.Vincula.POS.vbproj", "{3F4617C3-34FD-4548-80C9-59F46C3C3BB5}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "WSCOMCLIENTES_INS", "WSCOMCLIENTES_INS\WSCOMCLIENTES_INS.vdproj", "{8B36F38D-0688-4EA0-AD8B-4E8350C37063}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{AC812EAC-ABBE-4A95-BE3B-D3F5214203F2}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+		WsComClientes.vsmdi = WsComClientes.vsmdi
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 13
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://vmpromega:8080/tfs/consorciotfs
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Proceso\\Proceso.vbproj
+		SccProjectName1 = Proceso
+		SccLocalPath1 = Proceso
+		SccProjectUniqueName2 = LogicaTransaccional\\LogicaTransaccional.vbproj
+		SccProjectName2 = LogicaTransaccional
+		SccLocalPath2 = LogicaTransaccional
+		SccProjectUniqueName3 = EntidadesNegocio\\EntidadesNegocio.vbproj
+		SccProjectName3 = EntidadesNegocio
+		SccLocalPath3 = EntidadesNegocio
+		SccProjectUniqueName4 = ObjTransferDatos\\ObjTransferDatos.vbproj
+		SccProjectName4 = ObjTransferDatos
+		SccLocalPath4 = ObjTransferDatos
+		SccProjectUniqueName5 = ManejoMensajes\\ManejoMensajes.vbproj
+		SccProjectName5 = ManejoMensajes
+		SccLocalPath5 = ManejoMensajes
+		SccProjectUniqueName6 = Utilidades\\Utilidades.vbproj
+		SccProjectName6 = Utilidades
+		SccLocalPath6 = Utilidades
+		SccProjectUniqueName7 = WsComClientes\\WsComClientes.vbproj
+		SccProjectName7 = WsComClientes
+		SccLocalPath7 = WsComClientes
+		SccProjectUniqueName8 = Servicios\\Servicios.vbproj
+		SccProjectName8 = Servicios
+		SccLocalPath8 = Servicios
+		SccProjectUniqueName9 = ComponenteVinculacion\\Consorcio.root\\Consorcio\\Compensar.SISPOS.DAL\\Compensar.SISPOS.DAL.vbproj
+		SccProjectName9 = ComponenteVinculacion/Consorcio.root/Consorcio/Compensar.SISPOS.DAL
+		SccLocalPath9 = ComponenteVinculacion\\Consorcio.root\\Consorcio\\Compensar.SISPOS.DAL
+		SccProjectUniqueName10 = ComponenteVinculacion\\Consorcio.root\\Consorcio\\Compensar.SISPOS.ESL\\Compensar.SISPOS.ESL.vbproj
+		SccProjectName10 = ComponenteVinculacion/Consorcio.root/Consorcio/Compensar.SISPOS.ESL
+		SccLocalPath10 = ComponenteVinculacion\\Consorcio.root\\Consorcio\\Compensar.SISPOS.ESL
+		SccProjectUniqueName11 = ComponenteVinculacion\\Consorcio.root\\Consorcio\\Compensar.SISPOS.vinculacion\\Compensar.Vincula.POS.vbproj
+		SccProjectName11 = ComponenteVinculacion/Consorcio.root/Consorcio/Compensar.SISPOS.vinculacion
+		SccLocalPath11 = ComponenteVinculacion\\Consorcio.root\\Consorcio\\Compensar.SISPOS.vinculacion
+		SccProjectUniqueName12 = WSCOMCLIENTES_INS\\WSCOMCLIENTES_INS.vdproj
+		SccProjectName12 = WSCOMCLIENTES_INS
+		SccLocalPath12 = WSCOMCLIENTES_INS
+	EndGlobalSection
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = WsComClientes.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A183B886-F7C8-4B46-AAB5-FA305C515BAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A183B886-F7C8-4B46-AAB5-FA305C515BAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A183B886-F7C8-4B46-AAB5-FA305C515BAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A183B886-F7C8-4B46-AAB5-FA305C515BAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{433F86B1-89A4-489B-A3DB-7A23F033DF0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{433F86B1-89A4-489B-A3DB-7A23F033DF0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{433F86B1-89A4-489B-A3DB-7A23F033DF0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{433F86B1-89A4-489B-A3DB-7A23F033DF0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10D774D9-85AD-4DA2-84AF-4EA46D7087B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10D774D9-85AD-4DA2-84AF-4EA46D7087B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10D774D9-85AD-4DA2-84AF-4EA46D7087B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10D774D9-85AD-4DA2-84AF-4EA46D7087B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6211BD24-784B-468E-AE2A-62792737CD61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6211BD24-784B-468E-AE2A-62792737CD61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6211BD24-784B-468E-AE2A-62792737CD61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6211BD24-784B-468E-AE2A-62792737CD61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4884849E-D6EC-4B19-9C3A-8120DD0FD09C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4884849E-D6EC-4B19-9C3A-8120DD0FD09C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4884849E-D6EC-4B19-9C3A-8120DD0FD09C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4884849E-D6EC-4B19-9C3A-8120DD0FD09C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{255FDA63-3853-46F1-9FB3-C875824B5054}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{255FDA63-3853-46F1-9FB3-C875824B5054}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{255FDA63-3853-46F1-9FB3-C875824B5054}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{255FDA63-3853-46F1-9FB3-C875824B5054}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6590E93B-0290-4211-973A-D6280AB1C003}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6590E93B-0290-4211-973A-D6280AB1C003}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6590E93B-0290-4211-973A-D6280AB1C003}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6590E93B-0290-4211-973A-D6280AB1C003}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1963FB9F-438E-4D55-9079-7984B9AA015A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1963FB9F-438E-4D55-9079-7984B9AA015A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1963FB9F-438E-4D55-9079-7984B9AA015A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1963FB9F-438E-4D55-9079-7984B9AA015A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C936EBA8-B12C-44D2-875B-B153A739CE75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C936EBA8-B12C-44D2-875B-B153A739CE75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C936EBA8-B12C-44D2-875B-B153A739CE75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C936EBA8-B12C-44D2-875B-B153A739CE75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE0D854F-6510-46A0-9C8E-A18A2865EC76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE0D854F-6510-46A0-9C8E-A18A2865EC76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE0D854F-6510-46A0-9C8E-A18A2865EC76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE0D854F-6510-46A0-9C8E-A18A2865EC76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F4617C3-34FD-4548-80C9-59F46C3C3BB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F4617C3-34FD-4548-80C9-59F46C3C3BB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F4617C3-34FD-4548-80C9-59F46C3C3BB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F4617C3-34FD-4548-80C9-59F46C3C3BB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B36F38D-0688-4EA0-AD8B-4E8350C37063}.Debug|Any CPU.ActiveCfg = Debug
+		{8B36F38D-0688-4EA0-AD8B-4E8350C37063}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="Ege05" targetNamespace="http://tempuri.org/Ege05.xsd" elementFormDefault="qualified"
+	attributeFormDefault="qualified" xmlns="http://tempuri.org/Ege05.xsd" xmlns:mstns="http://tempuri.org/Ege05.xsd"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+	<xs:element name="Ege05" msdata:IsDataSet="true">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="EGE05">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="I_MAINT" type="xs:string" minOccurs="0" />
+							<xs:element name="I_XISP" type="xs:string" minOccurs="0" />
+							<xs:element name="I_TIDETRA" type="xs:string" minOccurs="0" />
+							<xs:element name="I_NIDETRA" type="xs:string" minOccurs="0" />
+							<xs:element name="I_TIDESUC" type="xs:string" minOccurs="0" />
+							<xs:element name="I_NIDESUC" type="xs:string" minOccurs="0" />
+							<xs:element name="I_CDEPSUC" type="xs:string" minOccurs="0" />
+							<xs:element name="I_CCOL" type="xs:string" minOccurs="0" />
+							<xs:element name="I_FSUELDO" type="xs:string" minOccurs="0" />
+							<xs:element name="I_CTIPVIN" type="xs:string" minOccurs="0" />
+							<xs:element name="I_CINDTDA" type="xs:string" minOccurs="0" />						
+							<xs:element name="I_FINGEMP" type="xs:string" minOccurs="0" />
+							<xs:element name="I_FRETTRA" type="xs:string" minOccurs="0" />
+							<xs:element name="I_NHORSUC" type="xs:string" minOccurs="0" />
+							<xs:element name="I_XCARSUC" type="xs:string" minOccurs="0" />
+							<xs:element name="I_VSALSUC" type="xs:string" minOccurs="0" />
+							<xs:element name="I_NCUECON" type="xs:string" minOccurs="0" />
+							<xs:element name="I_CTIPCUE" type="xs:string" minOccurs="0" />
+							<xs:element name="I_CENTFIN" type="xs:string" minOccurs="0" />
+							<xs:element name="I_TAFICAJ" type="xs:string" minOccurs="0" />
+							<xs:element name="I_TAFIPOS" type="xs:string" minOccurs="0" />
+							<xs:element name="I_FINGPOS" type="xs:string" minOccurs="0" />
+							<xs:element name="AT_SIGN" type="xs:string" minOccurs="0" />
+							<xs:element name="I_XNOMAPL" type="xs:string" minOccurs="0" />
+							<xs:element name="I_XNOMPAN" type="xs:string" minOccurs="0" />
+							<xs:element name="I_NDIGTRA" type="xs:string" minOccurs="0" />
+							<xs:element name="I_XNOMCOT" type="xs:string" minOccurs="0" />
+							<xs:element name="I_CESTSOC" type="xs:string" minOccurs="0" />
+							<xs:element name="I_CCAT" type="xs:string" minOccurs="0" />
+							<xs:element name="I_NEMPTRA" type="xs:string" minOccurs="0" />
+							<xs:element name="I_XESTCAJ" type="xs:string" minOccurs="0" />
+							<xs:element name="I_XESTPOS" type="xs:string" minOccurs="0" />
+							<xs:element name="I_TIDEEMP" type="xs:string" minOccurs="0" />
+							<xs:element name="I_NIDEEMP" type="xs:string" minOccurs="0" />
+							<xs:element name="I_NDIGEMP" type="xs:string" minOccurs="0" />
+							<xs:element name="I_CDEP" type="xs:string" minOccurs="0" />
+							<xs:element name="I_XNOMEMP" type="xs:string" minOccurs="0" />
+							<xs:element name="I_FINGBAS" type="xs:string" minOccurs="0" />
+							<xs:element name="I_NHORBAS" type="xs:string" minOccurs="0" />
+							<xs:element name="I_VSUETRA" type="xs:string" minOccurs="0" />
+							<xs:element name="I_VSALTRA" type="xs:string" minOccurs="0" />
+							<xs:element name="I_XNOMSUC" type="xs:string" minOccurs="0" />
+							<xs:element name="I_CUSUNEW" type="xs:string" minOccurs="0" />
+							<xs:element name="I_FULTNOV" type="xs:string" minOccurs="0" />
+							<xs:element name="I_FCARCAJ" type="xs:string" minOccurs="0" />
+							<xs:element name="MESSAGE" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Error">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Mensaje" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

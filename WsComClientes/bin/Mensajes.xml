@@ -1,0 +1,539 @@
+﻿<!DOCTYPE MensajesTransar [
+  <!ELEMENT MensajesTransar ANY> 
+  <!ELEMENT Mensaje ANY> 
+  <!ATTLIST Mensaje Codigo ID #REQUIRED>]>
+
+
+<MensajesTransar>
+	<Mensaje Codigo="1">
+		<Descripcion>Error de tipos. El tipo que se recibió no fué el esperado</Descripcion>
+	</Mensaje>
+	<Mensaje Codigo="2">
+		<Descripcion>Número de Identificación o Tipo de Identificación vacíos</Descripcion>
+	</Mensaje>
+	<Mensaje Codigo="3">
+		<Descripcion>Sistema no disponible en estos momentos, por favor intente más tarde</Descripcion>
+	</Mensaje>	
+	<Mensaje Codigo="4">
+		<Descripcion>Parámetros Vacios</Descripcion>
+	</Mensaje>
+	<Mensaje Codigo="5">
+		<Descripcion>Error recibido del Web Service AFSYS </Descripcion>
+	</Mensaje>
+	<Mensaje Codigo="6">
+		<Descripcion>Excepcion inesperada </Descripcion>
+	</Mensaje>
+	<Mensaje Codigo="7">
+		<Descripcion>Su sesion en el sistema ha terminado </Descripcion>
+	</Mensaje>
+	<Mensaje Codigo="8">
+		<Descripcion>Trabajador no existe en el sistema </Descripcion>
+	</Mensaje>
+	<Mensaje Codigo="9">
+		<Descripcion>El trabajador ya se encuentra afiliado a Caja de Compensacion Familiar desde la fecha: {0} ,si desea cambiar su contrato debe ingresar primero por el modulo de novedades para retirar el trabajador y afiliarlo de nuevo. </Descripcion>
+	</Mensaje>
+	<Mensaje Codigo="10">
+		<Descripcion>Trabajador afiliado con éxito a Caja de Compensación Familiar.                                         
+                             Para imprimir la carta de radicación vaya a Afiliaciones Caja_EPS/Radicación caja. Consulte los procedimientos y requisitos para acceder al subsidio familiar en la direccion : http://www.compensar.com/. No olvide afiliar a sus beneficiarios. </Descripcion>
+	</Mensaje>
+	<Mensaje Codigo="11">
+		<Descripcion>Trabajador retirado con éxito </Descripcion>
+	</Mensaje>
+	<Mensaje Codigo="12">
+		<Descripcion>Trabajador modificado con éxito </Descripcion>
+	</Mensaje>
+	<Mensaje Codigo="13">
+		<Descripcion>Trabajador no se pudo afiliar con éxito, por favor comuníquese con nosotros al 4285088 Ext. 1361 o a nuestra dirección electrónica transar@Compensar.com</Descripcion>
+	</Mensaje>
+	<Mensaje Codigo="14"><Descripcion> Error en lógica Transaccional </Descripcion>
+	</Mensaje>
+	<Mensaje Codigo="15"> 
+		<Descripcion>Trabajador no se pudo afiliar con éxito a POS, esta cancelado o suspendido. Por favor comuníquese con nosotros al 4285088 Ext. 1361 o a nuestra dirección electrónica transar@Compensar.com</Descripcion>
+	</Mensaje>
+	<Mensaje Codigo="16"> 
+		<Descripcion>Beneficiario ya afiliado </Descripcion>
+	</Mensaje>
+	<Mensaje Codigo="17"> 
+		<Descripcion>Beneficiario no se pudo afiliar con éxito a POS, esta cancelado o suspendido. Por favor comuníquese con nosotros al 4285088 Ext. 1361 o a nuestra dirección electrónica transar@Compensar.com</Descripcion>
+	</Mensaje>
+	<Mensaje Codigo="18"> 
+		<Descripcion>Beneficiario modificado con éxito en caja de compensación</Descripcion>
+	</Mensaje>
+	<Mensaje Codigo="19"> 
+		<Descripcion>No Existen Datos Para los Parámetros de Búsqueda Ingresados.</Descripcion>
+	</Mensaje>
+	<Mensaje Codigo="20"> 
+		<Descripcion>Error Consultando el Grupo Familiar</Descripcion>
+	</Mensaje>
+	<Mensaje Codigo="21"> 
+		<Descripcion>La clave del Web Config : NumSalariosMinimos No existe</Descripcion>
+	</Mensaje>
+	
+	<Mensaje Codigo="22">
+		<Descripcion>El trabajador ya se encuentra afiliado en POS</Descripcion>
+	</Mensaje>
+	<Mensaje Codigo="23">
+		<Descripcion>Trabajador afiliado con éxito a POS</Descripcion>
+	</Mensaje>
+	<Mensaje Codigo="24">
+		<Descripcion>Trabajador no se pudo afiliar con éxito en POS, por favor comuníquese con nosotros al 4285088 Ext. 1361 o a nuestra dirección electrónica transar@Compensar.com</Descripcion>
+	</Mensaje>
+	<Mensaje Codigo="25"> 
+		<Descripcion>Beneficiario ya afiliado en POS</Descripcion>
+	</Mensaje>
+	<Mensaje Codigo="26"> 
+		<Descripcion>Beneficiario afiliado con éxito</Descripcion>
+	</Mensaje>
+	<Mensaje Codigo="27"> 
+		<Descripcion>Error en la autenticación por favor contacte al administrador del sitio.</Descripcion>
+	</Mensaje>
+	<Mensaje Codigo="28"> 
+		<Descripcion>Beneficiario retirado con éxito.</Descripcion>
+	</Mensaje>
+	<Mensaje Codigo="29"> 
+		<Descripcion> Trabajador No Afiliado a Caja de Compensación Familiar  </Descripcion>
+	</Mensaje>
+	<Mensaje Codigo="30"> 
+		<Descripcion>Error en el envío del pago al PSE  </Descripcion>
+	</Mensaje>
+	<Mensaje Codigo="31"> 
+		<Descripcion>El usuario no existe en Transar, por favor contacte al administrador del sitio  </Descripcion>
+	</Mensaje>
+	<Mensaje Codigo="32"> 
+		<Descripcion>La Entidad No Existe o se Encuentra desahabilitada, intente por favor mas tarde  </Descripcion>
+	</Mensaje>
+	<Mensaje Codigo="33"> 
+		<Descripcion>El Banco No Existe o se Encuentra desahabilitado, intente por favor mas tarde </Descripcion>
+	</Mensaje>
+	<Mensaje Codigo="34"> 
+		<Descripcion>El Servicio no esta disponible en este momento, intente por favor mas tarde  </Descripcion>
+	</Mensaje>
+	<Mensaje Codigo="35"> 
+		<Descripcion>Monto Invalido, intente por favor mas tarde  </Descripcion>
+	</Mensaje>
+	<Mensaje Codigo="36"> 
+		<Descripcion>Fecha de solicitud Invalida, intente por favor mas tarde  </Descripcion>
+	</Mensaje>
+	<Mensaje Codigo="37"> 
+		<Descripcion>No Hay Comunicacion con el Banco, intente por favor mas tarde  </Descripcion>
+	</Mensaje>
+	<Mensaje Codigo="38"> 
+		<Descripcion>La Entidad No Existe o se Encuentra desahabilitada, intente por favor mas tarde  </Descripcion>
+	</Mensaje>
+	<Mensaje Codigo="39"> 
+		<Descripcion>Error de comunicaciones, intente por favor mas tarde </Descripcion>
+	</Mensaje>
+	<Mensaje Codigo="40"> 
+		<Descripcion>Descripcion no encontrada, intente por favor mas tarde  </Descripcion>
+	</Mensaje>
+	<Mensaje Codigo="41"> 
+		<Descripcion>La transaccion excede el limite de pago  </Descripcion>
+	</Mensaje>
+	<Mensaje Codigo="42"> 
+		<Descripcion>Error en la consulta del pago al PSE  </Descripcion>
+	</Mensaje>
+	<Mensaje Codigo="43"> 
+		<Descripcion>Error en la consulta de bancos disponibles al PSE  </Descripcion>
+	</Mensaje>	
+	<Mensaje Codigo="44"> 
+		<Descripcion>Error en la consulta del pago realizado. No se encontró el numero de factura en el sistema  </Descripcion>
+	</Mensaje>	
+	<Mensaje Codigo="45"> 
+		<Descripcion>No se selecciono ninguna factura para pagar, por favor verifique </Descripcion>
+	</Mensaje>	
+	 <Mensaje Codigo="46"> 
+		<Descripcion>El pago fue rechazado </Descripcion>
+	</Mensaje>	
+	<Mensaje Codigo="47"> 
+		<Descripcion>Error de acceso a datos</Descripcion>
+	</Mensaje>	
+	<Mensaje Codigo="48"> 
+		<Descripcion>La factura a consultar no existe o no esta disponible para el pago. </Descripcion>
+	</Mensaje>	
+	<Mensaje Codigo="49"> 
+		<Descripcion>No se encontraron facturas disponibles para el pago bajo este criterio de busqueda. </Descripcion>
+	</Mensaje>	
+	<Mensaje Codigo="50"> 
+		<Descripcion>El pago se encuentra en proceso de confirmación con el banco, Por favor verifique mas tarde.  </Descripcion>
+	</Mensaje>	
+	<Mensaje Codigo="51"> 
+		<Descripcion>No se pudo bloquear la agrupacion de facturas </Descripcion>
+	</Mensaje>	
+ 	<Mensaje Codigo="52"> 
+		<Descripcion>No se encontraron pagos para reprocesar </Descripcion>
+	</Mensaje>	
+ 	<Mensaje Codigo="53"> 
+		<Descripcion>Su pago esta siendo reprocesado </Descripcion>
+	</Mensaje>	
+ 	<Mensaje Codigo="54"> 
+		<Descripcion>Error consultando el pago en Transar </Descripcion>
+	</Mensaje>	
+	 	<Mensaje Codigo="55"> 
+		<Descripcion>No existen datos basicos disponibles </Descripcion>
+	</Mensaje>	
+ 	<Mensaje Codigo="56"> 
+		<Descripcion>El tamaño del archivo excede el máximo permitido: 2 MB</Descripcion>
+	</Mensaje>	
+ 	<Mensaje Codigo="57"> 
+		<Descripcion>No se encontraron errores en los servidores.</Descripcion>
+	</Mensaje>	
+ 	<Mensaje Codigo="58"> 
+		<Descripcion>No se pudo consultar la informacion solicitada.</Descripcion>
+	</Mensaje>		
+ 	<Mensaje Codigo="59"> 
+		<Descripcion>Error en la conexion a SIA.</Descripcion>
+	</Mensaje>		
+ 	<Mensaje Codigo="60"> 
+		<Descripcion>No se pudo consultar la informacion al PSE.</Descripcion>
+	</Mensaje>	
+ 	<Mensaje Codigo="61"> 
+		<Descripcion>Estado de la factura invalido para ser enviado al PSE.</Descripcion>
+	</Mensaje>	 
+ 	<Mensaje Codigo="62"> 
+		<Descripcion>COTIZANTE NO EXISTE PARA ESTA EMPRESA, POR FAVOR INGRESE UNO NUEVO</Descripcion>
+	</Mensaje>	 
+ 	<Mensaje Codigo="63"> 
+		<Descripcion>No se encontraron horarios para el servicio seleccionado. Le agradecemos consultar otra fecha.</Descripcion>
+	</Mensaje>	 
+ 	<Mensaje Codigo="64"> 
+		<Descripcion>No se encontro recaudo con Numero de referencia:</Descripcion>
+	</Mensaje>	 
+ 	<Mensaje Codigo="65"> 
+		<Descripcion>Error consultado recaudo en el Host. No recaudo:</Descripcion>
+	</Mensaje>	 
+ 	<Mensaje Codigo="66"> 
+		<Descripcion>Error aplicando el recaudo en el Host. Ya existe. No recaudo:</Descripcion>
+	</Mensaje>	 	
+ 	<Mensaje Codigo="67"> 
+		<Descripcion>Error Transformando los datos del encabezado</Descripcion>
+	</Mensaje>	 	
+ 	<Mensaje Codigo="68"> 
+		<Descripcion>Error Registrando los datos del encabezado. </Descripcion>
+	</Mensaje>	 	
+ 	<Mensaje Codigo="69"> 
+		<Descripcion>El intervalo de fechas consultadas no puede ser superior a  </Descripcion>
+	</Mensaje>	 	
+ 	<Mensaje Codigo="70"> 
+		<Descripcion>El tamaño del archivo excede el máximo permitido: 2 MB</Descripcion>
+	</Mensaje>
+ 	<Mensaje Codigo="71"> 
+		<Descripcion>El archivo no pudo ser enviado con exito, por favor contacte al administrador del site</Descripcion>
+	</Mensaje>
+ 	<Mensaje Codigo="72"> 
+		<Descripcion>Archivo enviado con exito a Compensar</Descripcion>
+	</Mensaje>
+ 	<Mensaje Codigo="73"> 
+		<Descripcion>Extension de archivo no válida. Solo se permiten enviar archivos con extension ".txt"</Descripcion>
+	</Mensaje>
+ 	<Mensaje Codigo="74"> 
+		<Descripcion>No existen registros asociados a los datos ingresados</Descripcion>
+	</Mensaje>	
+ 	<Mensaje Codigo="75"> 
+		<Descripcion>El usuario a consultar no tiene cuenta en Transar</Descripcion>
+	</Mensaje>	
+ 	<Mensaje Codigo="76"> 
+		<Descripcion>Error en la autenticación del usuario en Transar</Descripcion>
+	</Mensaje>	
+ 	<Mensaje Codigo="77"> 
+		<Descripcion>Su cuenta se encuentra Desactivada. Para mayor información comuníquese con nosotros al 4285088 Ext. 1358, 1361, 1364, 1366, 1387, 1384 o a nuestra dirección electrónica transar@Compensar.com.</Descripcion>
+	</Mensaje>	
+ 	<Mensaje Codigo="78"> 
+		<Descripcion>La clave es inválida. Intente de nuevo.</Descripcion>
+	</Mensaje>	
+ 	<Mensaje Codigo="79"> 
+		<Descripcion>En este momento no hay planillas de autoliquidación disponibles.</Descripcion>
+	</Mensaje>	
+ 	<Mensaje Codigo="80"> 
+		<Descripcion>Por favor seleccione una planilla para el pago.</Descripcion>
+	</Mensaje>	
+ 	<Mensaje Codigo="81"> 
+		<Descripcion>Informacion de la planilla no encontrada.</Descripcion>
+	</Mensaje>	
+ 	<Mensaje Codigo="82"> 
+		<Descripcion>No tiene en el momento autorizaciones disponibles en el sistema.</Descripcion>
+	</Mensaje>	
+ 	<Mensaje Codigo="83"> 
+		<Descripcion>Para mayor información por favor comunicarse al teléfono 4285066.</Descripcion>
+	</Mensaje>	
+	<Mensaje Codigo="84"> 
+		<Descripcion>Planilla eliminada del sistema</Descripcion>
+	</Mensaje>	
+	<Mensaje Codigo="85"> 
+		<Descripcion>La clave se cambio exitosamente</Descripcion>
+	</Mensaje>		
+	<Mensaje Codigo="86"> 
+		<Descripcion>La clave Anterior no corresponde. Intente nuevamente</Descripcion>
+	</Mensaje>		
+	<Mensaje Codigo="87"> 
+		<Descripcion>Esta clave ya se habia ingresado anteriormente, por favor ingrese una nueva</Descripcion>
+	</Mensaje>		
+	<Mensaje Codigo="88"> 
+		<Descripcion>Solamente se puede cambiar la clave una vez al dia</Descripcion>
+	</Mensaje> 
+		<Mensaje Codigo="89"> 
+		<Descripcion>El trabajador no tiene beneficiarios asociados</Descripcion>
+	</Mensaje>	
+	<Mensaje Codigo="90"> 
+		<Descripcion>Ha excedido el número de planillas Máximo a almacenar</Descripcion>
+		</Mensaje>	
+	<Mensaje Codigo="91"> 
+		<Descripcion>Su solicitud para recordar la clave ha sido recibida, la respuesta será envia a su correo electrónico.</Descripcion>
+	</Mensaje>	
+	<Mensaje Codigo="92"> 
+		<Descripcion>Su clave fue reemplazada por una nueva. SE OBLIGA cambiarla cuando ingrese al sistema Usuario: %1 Clave: %2</Descripcion>
+	</Mensaje>	
+	<Mensaje Codigo="93"> 
+ 		<Descripcion>Confirmación de Solicitud Recordación de Clave</Descripcion>
+	</Mensaje>	
+	<Mensaje Codigo="94"> 
+		<Descripcion>La planilla  fue guardada exitosamente</Descripcion>
+	</Mensaje>	
+	 <Mensaje Codigo="95"> 
+		<Descripcion>El sistema detecto que el trabajador ya se encuentra registrado, por favor rectifique.</Descripcion>
+	</Mensaje>	
+	<Mensaje Codigo="96"> 
+		<Descripcion>La Planilla ha sido ANULADA del sistema.</Descripcion>
+	</Mensaje>	
+	<Mensaje Codigo="97"> 
+		<Descripcion>La solicitud ha sido recibida por Compensar EPS para su estudio. En los próximos días le estaremos enviando via e-mail la respuesta.</Descripcion>
+	</Mensaje>	
+	<Mensaje Codigo="98"> 
+		<Descripcion>El rango seleccionado ya ha sido asignado a otro analista, por favor cambielo.</Descripcion>
+	</Mensaje>		
+	<Mensaje Codigo="99"> 
+		<Descripcion>El Analista fue creado con éxito.</Descripcion>
+	</Mensaje>			
+	<Mensaje Codigo="100"> 
+		<Descripcion>El Analista fue modificado con éxito.</Descripcion>
+	</Mensaje>			
+	<Mensaje Codigo="101"> 
+		<Descripcion>El Analista fue eliminado con éxito.</Descripcion>
+	</Mensaje>		
+	<Mensaje Codigo="102"> 
+		<Descripcion>Ha superado la Capacidad Máxima de almacenamiento de Planillas sin procesar (%1), verifique y elimine las no requeridas.</Descripcion>
+	</Mensaje>	
+	<Mensaje Codigo="103"> 
+		<Descripcion>Usuario delegado creado con exito.</Descripcion>
+	</Mensaje>	
+	<Mensaje Codigo="104"> 
+		<Descripcion>Usuario delegado modificado con exito.</Descripcion>
+	</Mensaje>	
+	<Mensaje Codigo="105"> 
+		<Descripcion>Usuario delegado eliminado con exito.</Descripcion>
+	</Mensaje>	
+	<Mensaje Codigo="106"> 
+		<Descripcion>Su usuario ha sido creado satisfactoriamente. Los datos para ingresar al sistema son:Usuario: %1 Clave: %2.</Descripcion>
+	</Mensaje>	
+	<Mensaje Codigo="107"> 
+		<Descripcion>Confirmación de creación de usuario delegado</Descripcion>
+	</Mensaje>	
+	<Mensaje Codigo="108"> 
+		<Descripcion>El usuario Delegado no pudo ser eliminado. Tiene usuarios delegados asociados. borre primero los usuarios y reintente. </Descripcion>
+	</Mensaje>		
+	<Mensaje Codigo="109"> 
+		<Descripcion>Perfil eliminado con éxito. </Descripcion>
+	</Mensaje>		
+	<Mensaje Codigo="110"> 
+		<Descripcion>Debe seleccionar algun permiso para el tipo de usuario. </Descripcion>
+	</Mensaje>	
+	<Mensaje Codigo="111"> 
+		<Descripcion>La creación de usuarios delegados solo es posible si se crean los por usuarios autorizados de las empresas. </Descripcion>
+	</Mensaje>	
+	<Mensaje Codigo="112"> 
+		<Descripcion>No existen planillas pendientes o rechazadas para modificar. </Descripcion>
+	</Mensaje>	
+	<Mensaje Codigo="113"> 
+		<Descripcion>La planilla ha sido procesada internamente por el área de compensación. </Descripcion>
+	</Mensaje>	
+ 	<Mensaje Codigo="114"> 
+		<Descripcion>La encuesta fue creada con éxito.</Descripcion>
+	</Mensaje>			
+ 	<Mensaje Codigo="115"> 
+		<Descripcion>Debe crear una respuesta para crear la encuesta.</Descripcion>
+	</Mensaje>			
+ 	<Mensaje Codigo="116"> 
+		<Descripcion>No existen permisos definidos para el tipo de perfil seleccionado, por favor verifique.</Descripcion>
+	</Mensaje>			
+ 	<Mensaje Codigo="117"> 
+		<Descripcion>No existe detalle de los movimientos de esta factura.</Descripcion>
+	</Mensaje>			
+ 	<Mensaje Codigo="118"> 
+		<Descripcion>Archivo cargado exitosamente.</Descripcion>
+	</Mensaje>			
+ 	<Mensaje Codigo="119"> 
+		<Descripcion>La fecha inicial de la encuesta debe ser posterior a la fecha actual. Por favor verifique.</Descripcion>
+	</Mensaje>			
+ 	<Mensaje Codigo="120"> 
+		<Descripcion>La encuesta fue modificada con éxito.</Descripcion>
+	</Mensaje>		 	
+ 	<Mensaje Codigo="121"> 
+		<Descripcion>La encuesta fue eliminada con éxito.</Descripcion>
+	</Mensaje>	
+ 	<Mensaje Codigo="122"> 
+		<Descripcion>Su solicitud fue enviada exitosamente a Compensar. Gracias por contar con nosotros.</Descripcion>
+	</Mensaje>		 	
+ 	<Mensaje Codigo="123"> 
+		<Descripcion>Su solicitud no pudo ser enviada. Por favor contacte al administrador del sitio.</Descripcion>
+	</Mensaje>		 	
+ 	<Mensaje Codigo="124"> 
+		<Descripcion>Información eliminada de Transar.</Descripcion>
+	</Mensaje>		 	
+ 	<Mensaje Codigo="125"> 
+		<Descripcion>El sueldo debe ser superior al mínimo actual.</Descripcion>
+	</Mensaje>		 	
+ 	<Mensaje Codigo="126"> 
+		<Descripcion>La Empresa no tiene ninguna relacion con compensar.</Descripcion>
+	</Mensaje>	
+ 	<Mensaje Codigo="127"> 
+		<Descripcion>El usuario que intenta aprobar ya existe en el Profile. Por favor verifique los datos.</Descripcion>
+	</Mensaje>	
+ 	<Mensaje Codigo="128"> 
+		<Descripcion>El usuario relacionado con la empresa a actualizar ha sido eliminado. Por lo tanto no se puede realizar ninguna actualización.</Descripcion>
+	</Mensaje>	
+ 	<Mensaje Codigo="129"> 
+		<Descripcion>Debe seleccionar solo un perfil para visualización de permisos.</Descripcion>
+	</Mensaje>	
+ 	<Mensaje Codigo="130"> 
+		<Descripcion>Debe seleccionar algun tipo de usuario.</Descripcion>
+	</Mensaje>	
+ 	<Mensaje Codigo="131"> 
+		<Descripcion>Su voto ha sido registrado exitosamente. Gracias Por contar con nosotros.</Descripcion>
+	</Mensaje>	
+ 	<Mensaje Codigo="132"> 
+		<Descripcion>Afiliado presenta Multiafiliación, por favor comuníquese con el area de Multiafiliaciones al 4285088 Ext. 1395 ó 1396.</Descripcion>
+	</Mensaje>	
+ 	<Mensaje Codigo="133"> 
+		<Descripcion>Beneficiario presenta Multiafiliación, por favor comuníquese con el area de Multiafiliaciones al 4285088 Ext. 1395 ó 1396.</Descripcion>
+	</Mensaje>		
+	<Mensaje Codigo="134">
+		<Descripcion>Error recibido del Web Service de Autorizaciones </Descripcion>
+	</Mensaje>
+	<Mensaje Codigo="135">
+		<Descripcion>Su solicitud ha sido procesada exitosamente </Descripcion>
+	</Mensaje>
+	<Mensaje Codigo="136">
+		<Descripcion>La solicitud de autorización no pudo ser procesada por el servidor </Descripcion>
+	</Mensaje>	
+	<Mensaje Codigo="137">
+		<Descripcion>Su opinion ha sido enviada con éxito a Compensar. Gracias por contar con nosotros. </Descripcion>
+	</Mensaje>
+	<Mensaje Codigo="138">
+		<Descripcion>La solicitud ha sido cancelada con éxito. </Descripcion>
+	</Mensaje>	
+	<Mensaje Codigo="139">
+		<Descripcion>No se pudo establecer conexion con Transar. Por favor Intente mas tarde. </Descripcion>
+	</Mensaje>	
+	<Mensaje Codigo="140">
+		<Descripcion>No se encontro información de sesion para el ticket enviado.  </Descripcion>
+	</Mensaje>	
+	<Mensaje Codigo="141">
+		<Descripcion>Valor errado para  %1 </Descripcion>
+	</Mensaje>	
+	<Mensaje Codigo="142">
+		<Descripcion>No se pudo establecer conexion con MiPlanilla. Por favor Intente mas tarde. </Descripcion>
+	</Mensaje>	
+	<Mensaje Codigo="143">
+		<Descripcion>Prestador no tiene ninguna relacion con compensar. </Descripcion>
+	</Mensaje>
+	<Mensaje Codigo="144">
+		<Descripcion>No se encontraron pagos realizados por la empresa. </Descripcion>
+	</Mensaje>
+	<Mensaje Codigo="145">
+		<Descripcion>Su documento de pago firmado esta siendo generado. </Descripcion>
+	</Mensaje>		
+	<Mensaje Codigo="146">
+		<Descripcion>El cupo no pudo ser separado, Por favor intente mas tarde. </Descripcion>
+	</Mensaje>	
+	<Mensaje Codigo="147">
+		<Descripcion>Fecha ingresada inválida, por favor verifique. </Descripcion>
+	</Mensaje>		
+	<Mensaje Codigo="148">
+		<Descripcion>Su documento de pago firmado le sera enviado al correo electrónico registrado en compensar.</Descripcion>
+	</Mensaje>		
+	<Mensaje Codigo="149">
+		<Descripcion>Su documento de pago firmado aun no ha sido generado</Descripcion>
+	</Mensaje>		
+	<Mensaje Codigo="150">
+		<Descripcion>Por favor ingrese un periodo mayor o igual a junio del 2006</Descripcion>
+	</Mensaje>		
+	<Mensaje Codigo="151">
+		<Descripcion>Empresa no existe o no existe aporte para el periodo seleccionado</Descripcion>
+	</Mensaje>	
+	<Mensaje Codigo="152">
+		<Descripcion>Su certificado de pago de aportes esta siendo generado y enviado a su cuenta de correo </Descripcion>
+	</Mensaje>		
+	<Mensaje Codigo="153">
+		<Descripcion>Por favor solicite {0} en nuestro sistema para acceder a su certificado de aportes </Descripcion>
+	</Mensaje>		
+	<Mensaje Codigo="154">
+		<Descripcion>Trabajador no afiliado por esta empresa </Descripcion>
+	</Mensaje>		
+		<Mensaje Codigo="155">
+		<Descripcion>Los Datos se Actualizaron Correctamente. </Descripcion>
+	</Mensaje>
+	<Mensaje Codigo="156">
+		<Descripcion>Error Actualizando Datos. </Descripcion>
+	</Mensaje> 
+	<Mensaje Codigo="157">
+		<Descripcion>La fecha de nacimiento ingresada no coincide con la reportada en Compensar. Por favor verifique </Descripcion>
+	</Mensaje> 
+	<Mensaje Codigo="158">
+		<Descripcion>No existen servicios para los criterios de busqueda seleccionados. Por favor Ingrese otra Fecha o Grupo de servicios</Descripcion>
+	</Mensaje> 
+	<Mensaje Codigo="159">
+		<Descripcion>No existen grupos de servicios para la familia seleccionada. Por favor seleccione otra.</Descripcion>
+	</Mensaje> 
+	<Mensaje Codigo="160">
+		<Descripcion>No existen familias de servicios habilitados para comprar. Por favor intente mas tarde.</Descripcion>
+	</Mensaje> 
+	<Mensaje Codigo="161">
+	
+		<Descripcion>No existe disponibilidad de horarios para los criterios seleccionados. Por favor seleccione otra fecha o servicio.</Descripcion>
+	</Mensaje> 
+	<Mensaje Codigo="162">
+		<Descripcion>Los datos suministrados son incorrectos, por favor escríbalos de nuevo.</Descripcion>
+	</Mensaje> 
+	<Mensaje Codigo="163">
+		<Descripcion>Lo sentimos la información es incorrecta.</Descripcion>
+	</Mensaje> 		
+	<Mensaje Codigo="164">
+		<Descripcion>Este servicio esta habilitado por el momento solo para afiliados a la CCF Compensar. Le agradecemos su intención de compra. </Descripcion>
+	</Mensaje> 	
+	<Mensaje Codigo="165">
+		<Descripcion>Registro de Usuario en venta de servicios </Descripcion>
+	</Mensaje> 	
+	<Mensaje Codigo="166">
+		<Descripcion>Error al crear la Factura.</Descripcion>
+	</Mensaje> 		
+	<Mensaje Codigo="167">
+		<Descripcion>Error al enviar el Pago.</Descripcion>
+	</Mensaje>
+	<Mensaje Codigo="168">
+		<Descripcion>Cualquier inquietud comuníquese al 4280666 extensiones 3421 y 3409.</Descripcion>
+	</Mensaje> 
+	<Mensaje Codigo="169">
+		<Descripcion>Cualquier inquietud comuníquese al 4280666 extensiones 3402 y 3404.</Descripcion>
+	</Mensaje> 		
+	<Mensaje Codigo="170">
+		<Descripcion>Cualquier inquietud comuníquese con el área contratante.</Descripcion>
+	</Mensaje> 	
+ 	<Mensaje Codigo="171"> 
+		<Descripcion>La persona no tiene ninguna relacion con compensar.</Descripcion>
+	</Mensaje>	
+ 	<Mensaje Codigo="172"> 
+		<Descripcion>El usuario ya existe en Transar. Si olvido su clave haga clic en la opcion de 'olvido su clave' o de lo contrario por favor comuníquese con nosotros al 4285088 Ext. 1361 o a nuestra dirección electrónica transar@Compensar.com </Descripcion>
+	</Mensaje>	
+ 	<Mensaje Codigo="173"> 
+		<Descripcion>No existen pagos registrados</Descripcion>
+	</Mensaje>
+	<Mensaje Codigo="179">
+		<Descripcion>Error en los datos de nombre y apellido</Descripcion>
+	</Mensaje>
+	<Mensaje Codigo="180">
+		<Descripcion>Trabajador afiliado con éxito a POS</Descripcion>
+	</Mensaje>
+	<Mensaje Codigo="181">
+		<Descripcion>Trabajador afiliado con éxito a CCF</Descripcion>
+	</Mensaje>
+
+</MensajesTransar>

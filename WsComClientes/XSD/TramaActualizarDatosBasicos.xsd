@@ -1,0 +1,587 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+				<xs:element name="AFILIADO">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="TipoIdent" minOccurs="1" maxOccurs="1" nillable="false" id="TipoIdent">
+								<xs:simpleType>
+									<xs:restriction base="xs:token">
+										<xs:enumeration value="CC" />
+										<xs:enumeration value="NI" />
+										<xs:enumeration value="CE" />
+										<xs:enumeration value="FN" />
+										<xs:enumeration value="NU" />
+										<xs:enumeration value="RC" />
+										<xs:enumeration value="MS" />
+										<xs:enumeration value="PA" />
+										<xs:enumeration value="TI" />
+									</xs:restriction>
+								</xs:simpleType>
+							</xs:element>
+							<xs:element name="NroIdentificacion" minOccurs="1" maxOccurs="1" nillable="false" id="NroIdentificacion">
+								<xs:simpleType>
+									<xs:restriction base="xs:integer">
+										<xs:totalDigits value="12" />
+										<xs:whiteSpace value="collapse" />
+									</xs:restriction>
+								</xs:simpleType>
+							</xs:element>
+							<xs:element name="ParteAlfabetica" minOccurs="0" maxOccurs="1" nillable="true" id="ParteAlfabetica">
+                <xs:simpleType>
+                  <xs:union>
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="3" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:enumeration value=""  />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:union>
+                </xs:simpleType>
+							</xs:element>
+              <xs:element name="DigitoChequeo" minOccurs="0" maxOccurs="1" nillable="true" id="DigitoChequeo">
+                <xs:simpleType>
+                  <xs:union>
+                    <xs:simpleType>
+                      <xs:restriction base="xs:integer">
+                        <xs:totalDigits value="2" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:enumeration value=""  />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:union>
+                </xs:simpleType>
+              </xs:element>
+							<xs:element name="Sucursal" minOccurs="0" maxOccurs="1" nillable="true" id="Sucursal">
+								<xs:simpleType>
+									<xs:union>
+										<xs:simpleType>
+											<xs:restriction base="xs:integer">
+												<xs:totalDigits value="12" />
+											</xs:restriction>
+										</xs:simpleType>
+										<xs:simpleType>
+											<xs:restriction base="xs:string">
+												<xs:enumeration value=""  />
+											</xs:restriction>
+										</xs:simpleType>
+									</xs:union>
+								</xs:simpleType>
+							</xs:element>
+							<xs:element name="CentroCosto" minOccurs="0" maxOccurs="1" nillable="true" id="CentroCosto">
+								<xs:simpleType>
+									<xs:union>
+										<xs:simpleType>
+											<xs:restriction base="xs:integer">
+												<xs:totalDigits value="12" />
+											</xs:restriction>
+										</xs:simpleType>
+										<xs:simpleType>
+											<xs:restriction base="xs:string">
+												<xs:enumeration value=""  />
+											</xs:restriction>
+										</xs:simpleType>
+									</xs:union>
+								</xs:simpleType>
+							</xs:element>
+              <xs:element name="TipoIdentNew" minOccurs="0" maxOccurs="1" nillable="true" id="TipoIdentNew">
+                <xs:simpleType>
+                  <xs:union>
+                    <xs:simpleType>
+                      <xs:restriction base="xs:token">
+                        <xs:enumeration value="CC" />
+                        <xs:enumeration value="NI" />
+                        <xs:enumeration value="CE" />
+                        <xs:enumeration value="FN" />
+                        <xs:enumeration value="NU" />
+                        <xs:enumeration value="RC" />
+                        <xs:enumeration value="MS" />
+                        <xs:enumeration value="PA" />
+                        <xs:enumeration value="TI" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:enumeration value=""  />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:union>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NroIdentificacionNew" minOccurs="0" maxOccurs="1" nillable="true" id="NroIdentificacionNew">
+                <xs:simpleType>
+                  <xs:union>
+                    <xs:simpleType>
+                      <xs:restriction base="xs:integer">
+                        <xs:totalDigits value="12" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:enumeration value=""  />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:union>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ParteAlfabeticaNew" minOccurs="0" maxOccurs="1" nillable="true" id="ParteAlfabeticaNew">
+                <xs:simpleType>
+                  <xs:union>
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="3" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:enumeration value=""  />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:union>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DigitoChequeoNew" minOccurs="0" maxOccurs="1" nillable="true" id="DigitoChequeoNew">
+                <xs:simpleType>
+                  <xs:union>
+                    <xs:simpleType>
+                      <xs:restriction base="xs:integer">
+                        <xs:totalDigits value="2"/>
+                      </xs:restriction>
+                    </xs:simpleType>
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:enumeration value=""/>
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:union>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SucursalNew" minOccurs="0" maxOccurs="1" nillable="true" id="SucursalNew">
+                <xs:simpleType>
+                  <xs:union>
+                    <xs:simpleType>
+                      <xs:restriction base="xs:integer">
+                        <xs:totalDigits value="12"/>
+                      </xs:restriction>
+                    </xs:simpleType>
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:enumeration value=""/>
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:union>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CentroCostoNew" minOccurs="0" maxOccurs="1" nillable="true" id="CentroCostoNew">
+                <xs:simpleType>
+                  <xs:union>
+                    <xs:simpleType>
+                      <xs:restriction base="xs:integer">
+                        <xs:totalDigits value="12" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:enumeration value=""  />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:union>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PrimerNombre" minOccurs="0" maxOccurs="1" nillable="true" id="PrimerNombre">
+                <xs:simpleType>
+                  <xs:union>
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="15" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:enumeration value=""  />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:union>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SegundoNombre" minOccurs="0" maxOccurs="1" nillable="true" id="SegundoNombre">
+                <xs:simpleType>
+                  <xs:union>
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="15" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:enumeration value=""  />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:union>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PrimerApellido" minOccurs="0" maxOccurs="1" nillable="true" id="PrimerApellido">
+                <xs:simpleType>
+                  <xs:union>
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="15" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:enumeration value=""  />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:union>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SegundoApellido" minOccurs="0" maxOccurs="1" nillable="true" id="SegundoApellido">
+                <xs:simpleType>
+                  <xs:union>
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="15" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:enumeration value=""  />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:union>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FechaNacimiento" minOccurs="0" maxOccurs="1" nillable="true" id="FechaNacimiento">
+                <xs:simpleType>
+                  <xs:union>
+                    <xs:simpleType>
+                      <xs:restriction base="xs:integer">
+                        <xs:totalDigits value="8" />
+                        <xs:maxExclusive value ="20991231"/>
+                        <xs:minExclusive value ="19000101"/>
+                        <xs:whiteSpace value="collapse" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:enumeration value=""  />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:union>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Genero" minOccurs="0" maxOccurs="1" nillable="true" id="Genero">
+                <xs:simpleType>
+                  <xs:union>
+                    <xs:simpleType>
+                      <xs:restriction base="xs:token">
+                        <xs:enumeration value="M" />
+                        <xs:enumeration value="F" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:enumeration value=""  />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:union>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="EstadoCivil" minOccurs="0" maxOccurs="1" nillable="true" id="EstadoCivil">
+                <xs:simpleType>
+                  <xs:union>
+                    <xs:simpleType>
+                      <xs:restriction base="xs:token">
+                        <xs:enumeration value="SO" />
+                        <xs:enumeration value="CA" />
+                        <xs:enumeration value="UL" />
+                        <xs:enumeration value="SE" />
+                        <xs:enumeration value="VI" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:enumeration value=""  />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:union>
+                 </xs:simpleType>
+              </xs:element>
+              <xs:element name="Direccion" minOccurs="0" maxOccurs="1" nillable="true" id="Direccion">
+                <xs:simpleType>
+                  <xs:union>
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="40" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:enumeration value=""  />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:union>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Telefono" minOccurs="0" maxOccurs="1" nillable="true" id="Telefono">
+                <xs:simpleType>
+                  <xs:union>
+                    <xs:simpleType>
+                      <xs:restriction base="xs:integer">
+                        <xs:totalDigits value="10" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:enumeration value=""  />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:union>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TipoDireccion" minOccurs="0" maxOccurs="1" nillable="true" id="TipoDireccion">
+                <xs:simpleType>
+                  <xs:union>
+                    <xs:simpleType>
+                      <xs:restriction base="xs:token">
+                        <xs:enumeration value="U" />
+                        <xs:enumeration value="R" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:enumeration value=""  />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:union>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Barrio" minOccurs="0" maxOccurs="1" nillable="true" id="Barrio">
+                <xs:simpleType>
+                  <xs:union>
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="20" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:enumeration value=""  />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:union>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Zona" minOccurs="0" maxOccurs="1" nillable="true" id="Zona">
+                <xs:simpleType>
+                  <xs:union>
+                    <xs:simpleType>
+                      <xs:restriction base="xs:integer">
+                        <xs:totalDigits value="5" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:enumeration value=""  />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:union>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Ciudad" minOccurs="0" maxOccurs="1" nillable="true" id="Ciudad">
+                <xs:simpleType>
+                  <xs:union>
+                    <xs:simpleType>
+                      <xs:restriction base="xs:integer">
+                        <xs:totalDigits value="5" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:enumeration value=""  />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:union>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="RazonSocial" minOccurs="0" maxOccurs="1" nillable="true" id="RazonSocial">
+                <xs:simpleType>
+                  <xs:union>
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="75" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:enumeration value=""  />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:union>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CodOcupacion" minOccurs="0" maxOccurs="1" nillable="true" id="CodOcupacion">
+                <xs:simpleType>
+                  <xs:union>
+                    <xs:simpleType>
+                      <xs:restriction base="xs:integer">
+                        <xs:totalDigits value="3" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:enumeration value=""  />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:union>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="GrupoEtnico" minOccurs="0" maxOccurs="1" nillable="true" id="GrupoEtnico">
+                <xs:simpleType>
+                  <xs:union>
+                    <xs:simpleType>
+                      <xs:restriction base="xs:integer">
+                        <xs:totalDigits value="3" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:enumeration value=""  />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:union>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="GrupoPoblacion" minOccurs="0" maxOccurs="1" nillable="true" id="GrupoPoblacion">
+                <xs:simpleType>
+                  <xs:union>
+                    <xs:simpleType>
+                      <xs:restriction base="xs:integer">
+                        <xs:totalDigits value="3" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:enumeration value=""  />
+                      </xs:restriction>
+                    </xs:simpleType>                    
+                  </xs:union>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NivelEscolaridad" minOccurs="0" maxOccurs="1" nillable="true" id="NivelEscolaridad">
+                <xs:simpleType>
+                  <xs:union>
+                    <xs:simpleType>
+                      <xs:restriction base="xs:integer">
+                        <xs:totalDigits value="3" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:enumeration value=""  />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:union>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CorreoElectronico" minOccurs="0" maxOccurs="1" nillable="true" id="CorreoElectronico">
+                <xs:simpleType>
+                  <xs:union>
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="60" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:enumeration value=""  />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:union>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Celular" minOccurs="0" maxOccurs="1" nillable="true" id="Celular">
+                <xs:simpleType>
+                  <xs:union>
+                    <xs:simpleType>
+                      <xs:restriction base="xs:integer">
+                        <xs:totalDigits value="12" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:enumeration value=""  />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:union>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="AutMsjTexto" minOccurs="0" maxOccurs="1" nillable="true" id="AutMsjTexto">
+                <xs:simpleType>
+                  <xs:union>
+                    <xs:simpleType>
+                      <xs:restriction base="xs:token">
+                        <xs:enumeration value="1" />
+                        <xs:enumeration value="2" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:enumeration value=""  />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:union>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="AutMsjCorreoElect" minOccurs="0" maxOccurs="1" nillable="true" id="AutMsjCorreoElect">
+                <xs:simpleType>
+                  <xs:union>
+                    <xs:simpleType>
+                      <xs:restriction base="xs:token">
+                        <xs:enumeration value="1" />
+                        <xs:enumeration value="2" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:enumeration value=""  />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:union>
+                </xs:simpleType>
+              </xs:element>
+							<xs:element name="Usuario" minOccurs="1" maxOccurs="1" nillable="false" id="Usuario">
+								<xs:simpleType>
+									<xs:restriction base="xs:integer">
+										<xs:totalDigits value="12" />
+										<xs:whiteSpace value="collapse" />
+									</xs:restriction>
+								</xs:simpleType>
+							</xs:element>
+              <xs:element name="ConsecutivoDir" minOccurs="0" maxOccurs="1" nillable="true" id="ConsecutivoDir">
+                <xs:simpleType>
+                  <xs:union>
+                    <xs:simpleType>
+                      <xs:restriction base="xs:token">
+                        <xs:enumeration value="1" />                        
+                      </xs:restriction>
+                    </xs:simpleType>
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:enumeration value=""  />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:union>
+                </xs:simpleType>
+              </xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+</xs:schema>

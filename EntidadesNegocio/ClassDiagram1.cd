@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Font Name="Tahoma" Size="8.25" />
+  <Class Name="EntidadesNegocio.CAfiliacionPOS" Collapsed="true">
+    <Position X="5.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>CAfiliacionPOS.vb</FileName>
+      <HashCode>AAAABAAAABAAAAAAAAAAAAEAAAAAAAAAAAAAQEAACAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EntidadesNegocio.CBeneficiario" Collapsed="true">
+    <Position X="1.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>CBeneficiario.vb</FileName>
+      <HashCode>wJEBASEVFwAARGAAAAAKAgAiAIlAwELgAAABAAAYBAM=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EntidadesNegocio.CDatosAfiliacion" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>CDatosAfiliacion.vb</FileName>
+      <HashCode>RBAAjACwABAAAAWAAAAAESCKACACEAAAABNEUBDADAY=</HashCode>
+    </TypeIdentifier>
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+  </Class>
+  <Class Name="EntidadesNegocio.CDatosPersona" Collapsed="true">
+    <Position X="2.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>CDatosPersona.vb</FileName>
+      <HashCode>lAAQAIAAgSAFAiQgAGDxoEoGBAwAAhAASAQCgi4BwII=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EntidadesNegocio.CEmpresa" Collapsed="true">
+    <Position X="2.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>CEmpresa.vb</FileName>
+      <HashCode>ESAAQIIAkCEBACAEBSFQgAgCBAxAAAEBEEgAAkgAQFY=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EntidadesNegocio.CEmpresaAfiliado" Collapsed="true">
+    <Position X="2.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>CEmpresaAfiliado.vb</FileName>
+      <HashCode>xhAAACACAAACRARIAAJCBAIAAIBASADggAQAAAAIhAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EntidadesNegocio.CNovedad" Collapsed="true">
+    <Position X="8.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>CNovedad.vb</FileName>
+      <HashCode>RhBALgAgQBAABqFABAACQAGCAAAJAAIAAAAEAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EntidadesNegocio.CTrabajador" Collapsed="true">
+    <Position X="3.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>CTrabajador.vb</FileName>
+      <HashCode>ACEAEBAEkgogAIBAACiAAgCEgAgQAAJACAAAgAAQEAI=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="EntidadesNegocio.TipoConsulta" Collapsed="true">
+    <Position X="10.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Enumeraciones.vb</FileName>
+      <HashCode>9uQhMYMN7Xcfn18I7q33lYjeQKCfaNf0f2KpYPQWt4s=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="EntidadesNegocio.TipoEstadoSolicitudIngSistema" Collapsed="true">
+    <Position X="10.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Enumeraciones.vb</FileName>
+      <HashCode>AACAAAAAACAAAAAAAAAECAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="EntidadesNegocio.TipoMotivoSolicitud" Collapsed="true">
+    <Position X="12.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Enumeraciones.vb</FileName>
+      <HashCode>AAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="EntidadesNegocio.TipoEstadoEncuesta" Collapsed="true">
+    <Position X="12.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Enumeraciones.vb</FileName>
+      <HashCode>QAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="EntidadesNegocio.TipoEmpresa" Collapsed="true">
+    <Position X="7" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Enumeraciones.vb</FileName>
+      <HashCode>AAAAAAAEAAAAAAAAAAAAAAAAAQAAAAAAAAIAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="EntidadesNegocio.TipoConsultaPago" Collapsed="true">
+    <Position X="12.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Enumeraciones.vb</FileName>
+      <HashCode>AAAAAAAAABAAAAIAAAAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="EntidadesNegocio.TipoAfiliacion" Collapsed="true">
+    <Position X="10.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Enumeraciones.vb</FileName>
+      <HashCode>AAAACAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="EntidadesNegocio.TipoCanal" Collapsed="true">
+    <Position X="7" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Enumeraciones.vb</FileName>
+      <HashCode>AAAAAAAAAABAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="EntidadesNegocio.TipoNovedad" Collapsed="true">
+    <Position X="5.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Enumeraciones.vb</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAE=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="EntidadesNegocio.TipoAplicacionPago" Collapsed="true">
+    <Position X="12.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Enumeraciones.vb</FileName>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAAAAAEAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="EntidadesNegocio.TipoEstadoCuenta" Collapsed="true">
+    <Position X="10.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Enumeraciones.vb</FileName>
+      <HashCode>AAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="EntidadesNegocio.TipoUsuario" Collapsed="true">
+    <Position X="10.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Enumeraciones.vb</FileName>
+      <HashCode>AAAAAAAAAAAAAAAACAAAAAAAAAAAgAAAAAAAIAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+</ClassDiagram>
